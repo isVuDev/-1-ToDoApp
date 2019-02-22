@@ -1,0 +1,126 @@
+body {
+  background-color: lightcyan;
+  display: block;
+  justify-content: center;
+}
+.App {
+  position: relative;
+  text-align: center;
+  width: 650px;
+  height: 900px;
+  border: 3px solid	white;
+  background-color: lightyellow;
+  top: 10px;
+  left: 25%;
+  box-shadow: 0px 0px 100px 50px powderblue;
+  border-radius: 20px;
+}
+
+input[type=text] {
+  background-color: #fde8d9;
+  width: 200px;
+  height: 5px;
+  padding: 8px;
+}
+
+.app-content {
+  position: relative;
+  top: 60px;
+  left: 7.5%;
+  padding: 5%;
+  width: 75%;
+  height: 80%;
+  border-radius: 10px;
+  border: 1px solid white;
+  box-shadow: 0px 0px 80px 2px lightpink;
+}
+
+.banner {
+  width: 100%;
+  height: 150px;
+}
+
+.TODO {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border: 5px solid black ;
+  float: left;
+  top: 10px;
+  left: 14px;
+  border-radius: 1px;
+  box-shadow: 2.5px 3px 0px 1px lightslategray;
+}
+.TODO ::after{
+  clear: left;
+}
+.TODO > div {
+  position: relative;
+  top: 2px;
+  left: 5%;
+  float: left;
+  box-sizing: border-box;
+  height: 47%;
+  width: 45%;
+  line-height: 100%;
+  font-weight: bold;
+  -webkit-text-stroke-width: 3.5px;
+  -webkit-text-stroke-color: black;
+  font-size: 150%;
+  color:  black;
+
+}
+.TODO > div ::after{
+  clear:left;
+}
+
+.search-div {
+  position: relative;
+  top: 15px;
+  right: 1%;
+  float: right;
+  border-radius: 2.5px;
+}
+
+.search-div::after{
+  clear: right;
+}
+
+.add-div {
+  position: relative;
+  left: 5%;
+  top: 100px;
+}
+
+.clock-div {
+  width: 200px;
+  height: 70px;
+  transform: translateX(293px) translateY(-13px);
+}
+
+.clock-div > div {
+}
+
+.add-div::after{
+  clear: left;
+}
+
+.add-text {
+  
+}
+
+.todo-div {
+  margin: 10px;
+  padding: 5px;
+}
+.todo-tbl {
+  width: 100%;
+}
+
+.todo-th {
+
+}
+
+.item-row {
+  color: black;
+}
