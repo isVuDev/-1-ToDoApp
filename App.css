@@ -1,0 +1,126 @@
+.App {
+  width: 100%;
+  height: auto;
+  display: flex;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-content {
+  width: 680px;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.banner {
+  display: flex;
+  width: 660px;
+  padding: 10px;
+  height: auto;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  border: 1px solid black;
+
+}
+
+.TODO {
+  height: 50px;
+  width: 50px;
+  border: 6px solid black;
+  border-radius: 1px;
+  box-shadow: 2.5px 3px 0px 1px lightslategray;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: flex-start;
+  transform: translateY(30px);
+}
+
+.TODO>div {
+  text-align: center;
+  font-weight: bold;
+  -webkit-text-stroke-width: 3.6px;
+  -webkit-text-stroke-color: black;
+  font-size: 160%;
+  color: black;
+  width: 23px;
+  height: 23px;
+}
+
+.add-div {
+  align-self: center;
+}
+
+.search-div {
+  display: flex;
+  width: 680px;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.todo-div {
+  justify-content: space-around;
+  flex-flow: row wrap;
+  display: flex;
+}
+
+.todo-tbl {
+  flex-flow: column wrap;
+
+}
+
+.todo-th {
+  display: flex;
+  width: 680px;
+  align-content: center;
+  justify-content: center;
+
+}
+
+.todo-th > div {
+  width: 170px;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+
+}
+
+.todo-tr {
+  flex-direction: row wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.item-row {
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: space-around;
+  align-content: center;
+  width: 680px;
+}
+.item-row > div { 
+  width: 170px;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+}
+
+.total-div {
+  border: 1px solid black;
+  width: 680px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.total-div > div { 
+  width: 226px;
+  border: 1px solid red;
+  text-align: center;
+  height: 30px;
+  padding: 15px 0;
+}
